@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "Robin",
+    "Identity": "Damian Wayne",
+    "Age": 32,
+    "Abilities": ["Martial Arts", "Stealth", "Detective Skills", "Leadership"],
+    "Location": "Gotham City",
+    "Known Associates": ["Nightwing", "Red Robin", "Batman", "Alfred Pennyworth"],
+    "Affiliation": "Bat Family",
+    "Metahuman Status": "Non-Metahuman",
+    "Image": "/agents/Damian.png",
+    "Biography": "Damian Wayne, the son of Bruce Wayne and Talia al Ghul, was raised by the League of Assassins before being brought to Gotham City to live with his father. As Robin, he served as Batman's partner and has developed into a skilled detective and martial artist. Since the war ended, he returned to lead the League of Assassins."
+  }
+] 
