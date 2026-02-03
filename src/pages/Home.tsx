@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Box, Typography } from '@mui/material';
-import { GoogleMap, useJsApiLoader, OverlayView } from '@react-google-maps/api';
+import { GoogleMap, useJsApiLoader, OverlayView, OverlayViewF } from '@react-google-maps/api';
 import cityData from '../data/cityData.json';
 import Pin from '../components/Pin';
 import CityModal from '../components/CityModal';
@@ -182,7 +182,7 @@ const Home: React.FC = () => {
           onUnmount={handleMapUnmount}
         >
           {map && mapReady && cities.map((city: any) => (
-            <OverlayView
+            <OverlayViewF
               key={`${city.name}-${mapKey}`}
               position={city.location}
               mapPaneName={OverlayView.OVERLAY_MOUSE_TARGET}
@@ -258,7 +258,7 @@ const Home: React.FC = () => {
                   </Box>
                 </Box>
               </div>
-            </OverlayView>
+            </OverlayViewF>
           ))}
         </GoogleMap>
       ) : (
